@@ -11,8 +11,8 @@ filetype plugin indent on
 
 " SET COLORSTYLE:
 
-" Sets dark solarized
-set background=dark
+" Sets light solarized
+set background=light
 colorscheme solarized
 " =====================================================
 " FINDING FILES:

@@ -2,6 +2,8 @@
 " Enter the current millenia
 set nocompatible
 
+execute pathogen#infect()
+
 " enable syntax and plugins (for netrw)
 syntax enable
 filetype plugin indent on

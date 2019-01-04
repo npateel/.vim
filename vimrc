@@ -11,8 +11,8 @@ filetype plugin indent on
 
 " SET COLORSTYLE:
 
-" Sets light solarized
-set background=light
+" Sets dark solarized
+set background=dark
 colorscheme solarized
 " =====================================================
 " FINDING FILES:
@@ -40,7 +40,11 @@ set softtabstop=4
 set number
 set nowrap
 set showmatch
-set colorcolumn=80
+
+if v:version > 800
+    set colorcolumn=80
+endif    
+
 " =====================================================
 let mapleader=" "
 map <leader>s :source ~/.vimrc<CR>

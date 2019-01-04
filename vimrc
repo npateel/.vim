@@ -41,7 +41,7 @@ set number
 set nowrap
 set showmatch
 
-if v:version > 800
+if v:version >= 800
     set colorcolumn=80
 endif    
 

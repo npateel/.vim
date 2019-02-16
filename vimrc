@@ -40,10 +40,10 @@ command! MakeTags !ctags -R .
 " - Use ^t to jump back up the tag stack
 " =====================================================
 set expandtab
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=3
+set softtabstop=3
 
-" add line numbers and set numberwidth to 4
+" add line numbers and set numberwidth to 3
 " =====================================================
 set number
 set nowrap
